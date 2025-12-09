@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+
+    <div class="box">
+      <h4>Product Generator</h4>
+      <input type="name" id="name" placeholder="Product name" />
+      <input type="number" id="price" placeholder="Price" />
+      <input type="text" id="color" placeholder="Color  (e.g: red) " />
+      <input type="number" id="year" placeholder="Year" />
+      <input type="text" id="image" placeholder="Image URL" />
+
+      <button class="text" id="addBtn">Add Product</button>
+    </div>
+
+    <div class="searchBox">
+      <input type="text" id="search" placeholder="Search" />
+      <select class="height" name="" id="category">
+        <option value="all">All</option>
+        <option value="2000">1990-2000</option>
+        <option value="2010">2000-2010</option>
+        <option value="2020">-2010-2020</option>
+
+        <option value="2030">2020-...</option>
+      </select>
+    </div>
+
+    <div class="products" id="productList">
+
+
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
